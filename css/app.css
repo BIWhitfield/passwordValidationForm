@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="text"]
+{
+    font-size:20px;
+}
+
+input[type="password"]
+{
+    font-size:20px;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+
+#white-block-top { 
+  width: 33vw;
+  height: 30vh;
+  margin-right: 0;
+  background-color: white;
+  float: left;
+}
+
+#black-block-top {
+  width: 67vw;
+  height: 30vh;
+  margin-left: 0;
+  background-color: #363636;
+  float: left;
+}
+
+#white-block-heading-left {
+  width: 10vw;
+  height: 10vh;
+  background-color: white;
+  float: left; 
+}
+
+h1 {
+  margin: 0;
+}
+
+#heading {
+  width: 23vw;
+  height: 10vh;
+  color: white;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 100%;
+  line-height: 10vh;
+  background-color: #1495D7;
+  float: left;
+}
+
+#white-block-heading-right {
+  width: 65vw;
+  height: 10vh;
+  margin-left: 0;
+  background-color: white;
+  float: left
+}
+
+#white-block-form-left {
+  width: 33vw;
+  height: 70vh;
+  margin-right: 0;
+  background-color: white;
+  float: left;
+}
+
+#registration-form {
+  background-color: #1495D7;
+  line-height: 50vh;
+  width: 33vw;
+  height: 45vh;
+  float: left;
+}
+
+.form {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.labeltext {
+  font-size: 100%;
+}
+
+.input-username {
+  border: none;
+  width: 100%;
+  height: 17%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-color: #1580B8;
+}
+
+.input-password {
+  border: none;
+  width: 100%;
+  height: 17%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  background-color: #1580B8;
+}
+
+.input-button {
+  border: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  height: 17%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #363636;
+}
+
+#password-result {
+  height: 5%;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+}

@@ -9,7 +9,7 @@ const checkForm = (form) => {
       form.password.focus();
       return false;
     }
-    return alert('Success, you know how strong your password is and this would normally now load a page where you would be logged in. But it will just refresh...')
+    return alert('Success, you know how strong your password is. This would normally now load a logged in page. But it will just refresh...')
 }
 
 const checkPassword = (pwd) => {

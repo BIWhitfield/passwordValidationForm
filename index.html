@@ -6,42 +6,51 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel='stylesheet' href='css/app.css' />
+  <link href="css/media-queries.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div id="wrapper"> 
-    <div id="white-block-top"></div>
-    <div id="black-block-top"></div> 
-    <div id="white-block-heading-left"></div>
-      <div id="heading"><h1>Registration</h1></div>
-    <div id="white-block-heading-right"></div>
-    
-  <div id="white-block-form-left"></div>
-    <div id="registration-form">
-      <form class="form" method="POST" onsubmit="checkForm(this); " >
-        <label class="labeltext">Username</label>
-          <br>
-            <input 
-              class="input-username" 
-              type="text" 
-              name="username" 
-              required 
-            />
-          <br>
-            <label class="labeltext">Password</label>
-          <br>
-      
-            <input 
-              class="input-password" 
-              type="password" 
-              name="password" 
-              required 
-              onkeypress="checkPassword(this); "
-            />
-          <br>
-        <div id="password-result"></div>
-          <input class="input-button" type="submit" value="Register">
-      </form>
+    <header id="header">
+      <div id="white-block-top"></div>
+      <div id="black-block-top"></div> 
+    </header>
+
+    <div id="title">
+      <div id="white-block-heading-left"></div>
+        <div id="heading"><h1>Registration</h1></div>
+      <div id="white-block-heading-right"></div>
     </div>
+    
+  <div id="content">
+    <div id="white-block-form-left"></div>
+      <div id="registration-form">
+        <form class="form" method="POST" onsubmit="checkForm(this); " >
+          <label class="labeltext">Username</label>
+            <br>
+              <input 
+                class="input-username" 
+                type="text" 
+                name="username" 
+                required 
+              />
+            <br>
+              <label class="labeltext">Password</label>
+            <br>
+        
+              <input 
+                class="input-password" 
+                type="password" 
+                name="password" 
+                required 
+                onkeypress="checkPassword(this); "
+              />
+            <br>
+          <div id="password-result"></div>
+            <input id="submit-button" class="input-button" type="submit" value="Register">
+        </form>
+      </div>
+    
+  </condivtent>  
   </div>
   <script src='js/app.js'></script>
 </body>

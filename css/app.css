@@ -136,14 +136,13 @@ input[type="password"]
 
 .input-button:disabled {
   border: none;
-  color: white;
+  color: #747171;
   font-size: 15px;
   width: 100%;
   height: 15%;
   margin-top: 5%;
   margin-bottom: 2%;
   text-decoration: line-through; 
-  border: 1px solid red;
   background-color: #363636;
 }
 

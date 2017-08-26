@@ -136,6 +136,7 @@ input[type="password"]
 
 .input-button:disabled {
   border: none;
+  cursor: not-allowed;
   color: #747171;
   font-size: 15px;
   width: 100%;
@@ -148,6 +149,7 @@ input[type="password"]
 
 .input-button {
   border: none;
+  cursor: pointer;
   color: white;
   font-size: 15px;
   width: 100%;

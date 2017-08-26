@@ -1,0 +1,128 @@
+@media screen and (max-width: 1080px) {
+
+	#wrapper {
+    width: 100%;
+  }
+  
+  #header {
+    width: 95%;
+		
+  }
+
+  #title {
+    width: 95%;
+		
+  }
+
+	#content {
+		width: 95%;
+		
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#header {
+    margin: 0 0 ;
+    width: 100%;
+    height: auto;
+	}
+
+	#title {
+    margin: 0 0;
+    width: 100%;
+    display: block;
+		top: 5px;
+    right: 0;
+	}
+
+	#content {
+		margin: 0 0;
+    width: 100%;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  #black-block-top {
+  width: 100%;
+  height: 25vh;
+  margin-left: 0;
+  background-color: #363636;
+  float: left;
+}
+  
+  #white-block-top { 
+    display: none;
+
+  }
+
+  #white-block-heading-left {
+    display: none;
+  }
+  
+  #white-block-heading-right {
+    display: none;
+  }
+
+  #white-block-form-left {
+    display: none;
+  }
+
+  .labeltext {
+  font-size: 25px;
+}
+
+  #heading {
+    width: 100%;
+  }
+
+  #registration-form {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+
+  .form {
+    width: 50%;
+    color: white;
+    margin-left: 20%;
+    height: 75%;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+  .input-button {
+  font-size: 25px;
+}
+
+  h1 {
+    font-size: 34px
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  h1 {
+    font-size: 20px
+  }
+
+  p {
+    font-size: 12px;
+  }   
+
+  .labeltext {
+    font-size: 15px;
+  }
+
+  .input-button {
+    font-size: 15px;
+  }
+}

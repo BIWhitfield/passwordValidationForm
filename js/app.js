@@ -11,7 +11,7 @@ const checkForm = (form) => {
       form.password.focus();
       return false;
     }
-    return alert('Success, you know how strong your password is. This would normally now load a logged in page. But it will just refresh...')
+    return alert('Success, you have entered a strong password. This would normally now load a logged in page. But it will just refresh...')
 }
 
 const checkPassword = (pwd) => {
@@ -21,7 +21,7 @@ const checkPassword = (pwd) => {
     // Length less than 4
     if (pwd.value.length < 4) {
       let p = document.createElement('p');
-      p.appendChild(document.createTextNode('Weak - Too short'))
+      p.appendChild(document.createTextNode('Weak - Too short - you will need a STRONG password to register'))
       document.getElementById('password-result').appendChild(p);
       pwd.focus();
       return false
